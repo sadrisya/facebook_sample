@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook login page</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <label class="logo">facebook</label>
+        <div class="loginContainer">
+            <form class="loginForm" action="">
+                <table>
+                    <tr>
+                        <td> <label class="emailPhone" for="email">Email or phone</label><br> </td>
+                        <td> <label class="loginPaswrd" for="password">Password</label><br> </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="text" id="email" name="email"> </td>
+                        <td> <input type="text" id="password" name="password"> </td>
+                        <td> <button type="submit" class="btn">Log In</button> </td>
+                    </tr>
+                </table>
+                <a href="#" class="forgottenAccount">Forgotten account?</a>
+
+
+
+            </form>
+        </div>
+    </div>
+    <div class="mainContainer">
+        <div class="leftContent">
+            <h2 class="heading2">Facebook helps you connect and share with the <br>
+                people in your life.</h2>
+            <img class="connectingImage" src="./connecting2.jfif" alt="Facebook connection graphic">
+        </div>
+        <div class="rightContent">
+            <h1 class="headingRight">Create an account</h1>
+            <p class="para">It's quick and easy.</p>
+            <form class="signUpForm" action="signUp">
+                <input class="fName" type="text" placeholder="First name">
+                <input class="sName" type="text" placeholder="Surname"> <br><br>
+                <input class="mobileEmail" type="text" placeholder="Mobile number or email address"><br><br>
+                <input class="password" type="password" placeholder="New password"><br><br>
+                <label class="birthday" for="birthday">Birthday</label><br><br>
+
+                <select class="dob" id="birthdayDay">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+
+                </select>
+                <select class="dob" id="birthdayMonth">
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>March</option>
+                    <option>Aprl</option>
+
+                </select>
+                <select class="dob" id="birthdayYear">
+                    <option>Year</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+
+                </select> <i class="fa fa-question-circle" style="font-size:22px"></i>
+                <br><br>
+                <label class="gender">Gender</label><br><br>
+                <label class="genderType"><input type="radio" name="gender"> Female</label>
+                <label class="genderType"><input type="radio" name="gender"> Male</label>
+                <label class="genderType"><input type="radio" name="gender"> Custom</label><i
+                    class="fa fa-question-circle" style="font-size:22px"></i><br><br>
+
+                <p class="tndc">By clicking Sign Up, you agree to our <a href="#">Terms</a>,
+                    <a href="#">Data Policy</a> and <a href="#">Cookie Policy</a>. You may receive SMS notifications
+                    from us
+                    and can opt out at any time.
+                </p><br>
+
+                <button type="submit" class="btnSignup">Sign Up</button>
+
+
+
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
